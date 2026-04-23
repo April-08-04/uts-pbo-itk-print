@@ -58,6 +58,8 @@ class MesinPrint(
 }
 
 fun main() {
+    println("=== Sistem ITK Print Berjalan ===")
+
     val pelanggan = Pelanggan("Fadilah", 10000)
     val dokumen = Dokumen("Laporan", 10)
     val mesin = MesinPrint("Printer ITK", 50, 50, 500)
